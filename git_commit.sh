@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-chmod -R 777 *.sh
+chmod 777 -R .
 git add --all .
 git commit -m "Updated scripts"
 git push

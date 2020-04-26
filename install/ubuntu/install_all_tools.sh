@@ -1,4 +1,4 @@
 #!/bin/bash
 set -ex
-
-sudo apt install tree -y
+# lsb_release from lsb-core
+sudo apt install htop tree git wget lsb-core curl expect mc moreutils -y

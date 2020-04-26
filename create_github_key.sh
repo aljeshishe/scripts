@@ -7,14 +7,9 @@ DEFAULT_EMAIL=ax66@bk.ru
 read -p "Enter email($DEFAULT_EMAIL): " EMAIL
 EMAIL=${EMAIL:-$DEFAULT_EMAIL}
 
-DEFAULT_PASSPHRASE=
-read -sp "Enter passphrase(default empty): " PASSPHRASE
-PASSPHRASE=${PASSPHRASE:-$DEFAULT_PASSPHRASE}
-
-KEY_FILE=/home/comp/.ssh/id_rsa_$DEFAULT_POSTFIX
+KEY_FILE=/home/comp/.ssh/id_rsa_$POSTFIX
 PUB_KEY_FILE=$KEY_FILE.pub
-
-ssh-keygen -t rsa -b 4096 -C "$EMAIL" -N $PASSPHRASE -f $KEY_FILE
+ssh-keygen -t rsa -b 4096 -C "$EMAIL"  -f $KEY_FILE
 eval "$(ssh-agent -s)"
 ssh-add $KEY_FILE
 sudo apt-get install xclip > /dev/null

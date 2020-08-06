@@ -1,0 +1,60 @@
+Creating files 100000 of size 100k
+Creating arcs/files.tar.gz
+	time:6:55.67
+Unpacking arcs/files.tar.gz
+	time:1:28.29
+Unpacking arcs/files.tar.gz 1 file
+	time:1:12.66
+
+Creating arcs/files.tar
+	time:1:38.61
+Unpacking arcs/files.tar
+	time:0:34.43
+Unpacking arcs/files.tar 1 file
+	time:0:06.56
+
+Creating arcs/files.zip
+	time:1:47.31
+Unpacking arcs/files.zip
+	time:1:17.56
+Unpacking arcs/files.zip 1 file
+	time:0:00.02
+
+Creating arcs/files.7z
+	time:0:46.20
+Unpacking arcs/files.7z
+	time:31:22.55
+Unpacking arcs/files.7z 1 file
+	time:0:00.11
+Creating files 100000 of size 100k
+
+
+
+Creating files 100000 of size 100k
+Creating arcs/files.tar.gz
+	time:7:54.29
+Unpacking arcs/files.tar.gz 1 file
+	time:1:22.11
+Unpacking arcs/files.tar.gz
+	time:1:40.33
+
+Creating arcs/files.tar
+	time:1:15.52
+Unpacking arcs/files.tar 1 file
+	time:0:07.58
+Unpacking arcs/files.tar
+	time:0:37.55
+
+Creating arcs/files.zip
+	time:2:14.94
+Unpacking arcs/files.zip 1 file
+	time:0:00.01
+Unpacking arcs/files.zip
+	time:1:30.01
+
+Creating arcs/files.7z
+	time:0:49.50
+Unpacking arcs/files.7z 1 file
+	time:0:00.10
+Unpacking arcs/files.7z
+	time:31:04.65

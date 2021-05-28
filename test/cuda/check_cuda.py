@@ -1,3 +1,8 @@
+import os
+
+print('Running nvidia-smi')
+os.system('nvidia-smi')
+
 import tensorflow as tf
 device_name = tf.test.gpu_device_name()
 result = 'CUDA' if device_name else 'CPU'
